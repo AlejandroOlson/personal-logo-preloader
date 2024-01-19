@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* background: rgb(32,81,129);
+    background: -moz-linear-gradient(90deg, rgba(32,81,129,1) 32%, rgba(50,153,170,1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(32,81,129,1) 32%, rgba(50,153,170,1) 90%);
+    background: linear-gradient(90deg, rgba(32,81,129,1) 32%, rgba(50,153,170,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#205181",endColorstr="#3299aa",GradientType=1); */
+    background: rgb(25,27,28);
+    background: -moz-linear-gradient(90deg, rgba(25,27,28,1) 27%, rgba(68,157,172,1) 94%);
+    background: -webkit-linear-gradient(90deg, rgba(25,27,28,1) 27%, rgba(68,157,172,1) 94%);
+    background: linear-gradient(90deg, rgba(25,27,28,1) 27%, rgba(68,157,172,1) 94%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191b1c",endColorstr="#449dac",GradientType=1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    top: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 27%;
+    height: 22%;
+}
+
+.body-container {
+    overflow: hidden;
+}
